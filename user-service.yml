@@ -10,7 +10,6 @@ spring:
     username: root
     password: xorkd13579!
   jpa:
-    database-platform: H2
     show-sql: true
     hibernate:
       ddl-auto: create
