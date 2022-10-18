@@ -5,7 +5,7 @@ spring:
   application:
     name: catalog-service
   datasource:
-    url: jdbc:mariadb://localhost:3306/msa
+    url: jdbc:mariadb://3.34.151.38:3306/msa
     driver-class-name: org.mariadb.jdbc.Driver
     username: root
     password: xorkd13579!
@@ -22,7 +22,7 @@ eureka:
     fetch-registry: true
     service-url:
 
-      defaultZone: http://127.0.0.1:8761/eureka
+      defaultZone: http://3.34.151.38:8761/eureka
 
 logging:
   level:
